@@ -482,11 +482,16 @@ flex-basis: calc((100% - 48)/3);
 
 .section-two-strategy {
 box-sizing: border-box;
+width: 264px;
+height: 112px;
+flex-shrink: 0;
 padding: 24px 100px ;
+border-radius: 4px;
+background: var(--CLOUD, #F4F4FD);
 }
 
 .section-two-icons {
 display: flex;
 align-items: center;
-padding-bottom: 24px; 
+ 
    }
