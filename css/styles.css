@@ -479,3 +479,14 @@ flex-basis: calc((100% - 48)/3);
 .link-padding {
    padding: 24px 0;
    }
+
+.section-two-strategy {
+box-sizing: border-box;
+padding: 24px 100px ;
+}
+
+.section-two-icons {
+display: flex;
+align-items: center;
+padding-bottom: 24px; 
+   }
