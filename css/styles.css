@@ -493,5 +493,20 @@ background: var(--CLOUD, #F4F4FD);
 .section-two-strategy-icons {
 display: flex;
 align-items: center;
- 
-   }
+ }
+
+ .section-four-team-socialmedia {
+display: flex;
+align-items: center;
+
+gap: 24px;
+max-width: 232px;
+max-height: 40px;
+background-color: var(--cloud-color);
+
+ }
+
+ .section-four-socialmedia-icons {
+background-color: red;
+flex-shrink: 0;
+ }
