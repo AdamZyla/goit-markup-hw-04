@@ -199,7 +199,14 @@ cursor: pointer;
 background-color: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
+margin: 0 auto;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+max-width: 1440px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
+
 
 .hero-one {
 padding: 120px 0;
@@ -214,7 +221,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white-color);
-background-color: #2E2F42;
+/*background-color: #2E2F42;*/
 max-width: 496px;
 margin: 0 auto;
 
