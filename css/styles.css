@@ -243,7 +243,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
 color: var(--navy-blue-color);
-margin-bottom: 8px;
+/*margin-bottom: 8px;*/
 
 }
 
@@ -418,7 +418,7 @@ margin-top: 48px;
 .section-two-styling {
  
   display: flex;
-   gap: 24px;
+   /*gap: 24px;*/
 }
 
 .section-portfolio {
@@ -429,7 +429,7 @@ margin-top: 48px;
 .section-two-li {
    display: flex;
    flex-direction: column;
-   gap: 24px;
+ /*  gap: 24px;*/
    width: calc((100% - 72px) / 4);
 }
 
@@ -497,11 +497,15 @@ flex-basis: calc((100% - 48)/3);
 
 .section-two-strategy {
 box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: center;
 width: 264px;
 height: 112px;
 flex-shrink: 0;
 padding: 24px 100px ;
 border-radius: 4px;
+margin-bottom: 8px;
 background: var(--CLOUD, #F4F4FD);
 }
 
@@ -543,8 +547,8 @@ border-radius: 50%;
 }
 
 .icon {
-width: 16px;
-height: 16px; 
+/*width: 16px;
+height: 16px; */
 fill: var(--cloud-color);
 }
 
@@ -552,7 +556,8 @@ fill: var(--cloud-color);
    fill: var(--cloud-color);
 }
 
-.icon-footer:hover {
+.icon-footer:hover,
+.icon-footer:focus {
 fill: var(--green-color)
 }
 
@@ -584,7 +589,8 @@ margin-bottom: 16px;
 .footer-flex {
 display: flex;
 align-items: baseline;
-gap: 120px;
+/*gap: 120px;*/
+margin-right: 120px;
 }
 
 
@@ -600,12 +606,12 @@ gap: 120px;
    text-align: center;
    text-transform: capitalize;
    margin-bottom: 72px;
-   margin-top: 120px;
+   /*margin-top: 120px;*/
 }
 
 .customers-list {
    display: flex;
-   width: calc((100% - 5 * 24) / 6) ;
+   width: calc((100% - 120px) / 6) ;
    gap: 24px;
    align-items: center;
    justify-content: center;
@@ -617,6 +623,7 @@ gap: 120px;
 .customers-item {
 box-sizing: border-box;
 justify-content: center;
+
 width: 168px;
 height: 88px;
 border-radius: 4px;
@@ -630,23 +637,31 @@ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 
 
 .customers-logo-link {
+   color: var(--light-slate-color);
+   border: 1px solid var(--lightslate-color);
    display: flex;
    gap: 12px;
    justify-content: center;
    align-items: center;
+   flex-shrink: 0;
    width: 100%;
    height: 100%;
   }
 
   .icon-customers {
-   height: 88px;
-   width: 168px;
-   fill: var(--light-slate-color)
-   }
+   fill: currentColor;   
+   /*height: 88px;
+   width: 168px;*/
+   /*fill: var(--light-slate-color)
+   */}
 
-.icon-customers:hover {
-   fill: var(--ocean-color);
-}
+.icon-customers:hover,
 .icon-customers:focus {
    fill: var(--ocean-color);
+   border-color: var(--ocean-color);
+}
+
+
+.section-five {
+   padding: 120px 0;
 }
