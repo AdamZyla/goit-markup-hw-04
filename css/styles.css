@@ -607,8 +607,6 @@ margin-bottom: 16px;
 .footer-flex {
 display: flex;
 align-items: baseline;
-/*gap: 120px;*/
-margin-right: 120px;
 }
 
 
@@ -694,4 +692,8 @@ width: calc((100% - 120px) / 6);
 
 .section-five {
    padding: 120px 0;
+  }
+
+  .footer-logo-div {
+   margin-right: 120px;
   }
