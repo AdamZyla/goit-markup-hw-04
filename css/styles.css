@@ -60,7 +60,17 @@ ul {
 
 .link {
    text-decoration: none;
+   display: block;
 }
+
+.link:hover,
+.link:focus {
+   box-sizing: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+
+}
+
+
+
 
 .link-contact {
 color: #434455;
@@ -467,12 +477,14 @@ margin-top: 48px;
    padding: 12px 24px 12px 24px;
    border:  1px solid var(--cornflower-color);
 }
-.button-portfolio-styling:hover {
-border: 1px solid transparent;
-}
+.button-portfolio-styling:hover,
 .button-portfolio-styling:focus {
 border: 1px solid transparent;
 }
+ 
+
+
+
 
 .project-portfolio-styling {
    display: flex;
@@ -480,6 +492,7 @@ border: 1px solid transparent;
    gap: 24px;
    row-gap: 48px;
      }
+     
 .projects-link-styling {
    border: 1px solid var(--cornflower-color);
    border-top: none;
