@@ -512,8 +512,19 @@ border-radius: 50%;
 }
 
 .social-media-link {
-   align-items: center;
+   display: flex;
+   gap: 12px;
    justify-content: center;
-
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   background-color: var(--iris-color);
+   border-radius: 50%;
+   
 }
 
+.icon {
+width: 16px;
+height: 16px; 
+fill: var(--cloud-color);
+}
