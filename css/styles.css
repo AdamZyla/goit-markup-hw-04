@@ -495,26 +495,4 @@ display: flex;
 align-items: center;
  }
 
- .section-four-team-socialmedia {
-display: flex;
-align-items: center  ;
-justify-content: center;
-
-gap: 24px;
-width: calc((100% - 72) / 4);
-max-height: 40px;
-background-color: var(--cloud-color);
-
- }
-
- /*.section-four-socialmedia-icons {
-background-color: red;
- }*/
-
- .ellipse {
-   width: 40px;
-   height: 40px;
-   fill: var(--IRIS, #4D5AE5);
-   margin-top: 8px;
-
- }
+ 
