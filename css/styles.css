@@ -529,10 +529,17 @@ height: 16px;
 fill: var(--cloud-color);
 }
 
-.icon:hover {
+.icon-footer {
+   width: 24px;
+   height: 24px; 
+   fill: var(--cloud-color);
+
+}
+
+.icon-footer:hover {
 fill:var(--green-color)
 }
-.icon:focus {
+.icon-footer:focus {
    fill:var(--green-color)
    }
 
