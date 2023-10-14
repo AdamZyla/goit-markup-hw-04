@@ -629,7 +629,7 @@ margin-right: 120px;
 
 .customers-list {
    display: flex;
-   width: calc((100% - 120px) / 6) ;
+ 
    gap: 24px;
    width: 100%;
    height: 100%;
@@ -648,6 +648,7 @@ width: 168px;
 height: 88px;*/
 border-radius: 4px;
 border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+width: calc((100% - 120px) / 6);
 }
 
 .customers-item:hover , 
@@ -668,6 +669,12 @@ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
    align-items: center;
    flex-shrink: 0;
   
+  }
+
+  .customers-logo-link:hover,
+  .customers-logo-link:focus {
+   border-color: var(--ocean-color);
+   color: var(--ocean-color);
   }
 
   .icon-customers {
