@@ -532,7 +532,7 @@ height: 112px;
 flex-shrink: 0;
 padding: 24px 100px ;
 border-radius: 4px;
-/*margin-bottom: 8px;*/
+margin-bottom: 8px;
 background: var(--CLOUD, #F4F4FD);
 }
 
