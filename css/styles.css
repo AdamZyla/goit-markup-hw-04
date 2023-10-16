@@ -35,6 +35,9 @@ ul {
    --grey-color: #2E2F42;
    --white-color: #ffffff;
    --dairy-color: #fcfcfc;
+/*
+   padding-left: 156px;
+   padding-right: 156px;*/
    }
        
 .main-header {
@@ -219,17 +222,18 @@ padding-bottom: 188px;
 margin: 0 auto;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
 max-width: 1440px;
+
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
 
 
-.hero-one {
-padding: 120px 0;
+.hero-one {/*
+padding: 120px 0;*/
 }
 
-.section-one {
+   .section-one {
 font-family: Roboto;
 font-size: 56px;
 font-style: normal;
@@ -253,8 +257,10 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.4px;
 color: var(--navy-blue-color);
-/*margin-bottom: 8px;*/
-
+/*margin-bottom: 8px;
+margin-top: 8px;*/
+padding-top: 8px;
+padding-bottom: 8px;
 }
 
 .section-two-text {
@@ -326,9 +332,9 @@ font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.4px;
 color: #2E2F42;
-margin-bottom: 8px;
-margin-top: 32px;
-text-align: center;
+margin-bottom: 8px;/*
+margin-top: 32px;/*
+text-align: center;*/
 }
 
 .project-description {
@@ -338,8 +344,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
-color: #434455;
-text-align: center;
+color: #434455;/*
+text-align: center;*/
 }
 
 .section-four-bg {
@@ -355,8 +361,8 @@ text-align: center;
 }
 
 .container {
-max-width: 1158px;
-padding: 0 15px;
+max-width: 1158px;/*
+padding: 0 15px;*/
 margin: 0 auto;
 }
 
@@ -384,10 +390,13 @@ margin: 0 auto;
 }
 
 .section-one-styling {
-display: box;
-align-items: center;
-
-
+/*display: box;
+align-items: center;*/
+display: flex;/*
+width: 264px;*/
+flex-direction: column;
+align-items: flex-start;/*
+gap: 8px;*/
 /*max-width: 496px;*/
 }
 
@@ -501,11 +510,11 @@ border: 1px solid transparent;
    
    }
 .list-project-item-styling {
-flex-basis: calc((100% - 48)/3);
+flex-basis: calc((100% - 48px)/3);
 }
 
 .link-padding {
-   padding: 24px 0;
+   /*padding: 24px 0;*/
    }
 
 .link-padding:hover,
@@ -523,7 +532,7 @@ height: 112px;
 flex-shrink: 0;
 padding: 24px 100px ;
 border-radius: 4px;
-margin-bottom: 8px;
+/*margin-bottom: 8px;*/
 background: var(--CLOUD, #F4F4FD);
 }
 
@@ -675,6 +684,16 @@ width: calc((100% - 120px) / 6);
   .customers-logo-link:focus {
    border-color: var(--ocean-color);
    color: var(--ocean-color);
+  }
+
+
+  
+  .customer-four {
+   display: inline-flex;
+padding: 9px 9px 6px 11px;
+justify-content: center;
+align-items: center;
+
   }
 
   .icon-customers {
